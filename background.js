@@ -1,0 +1,1 @@
+// Handles background tasks and browser events

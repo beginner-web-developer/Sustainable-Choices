@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Sustainable Choices Extension",
+    "version": "1.0",
+    "description": "This extension allows tracking of carbon footprints of products, and recommends more sustainable choices for consumers!",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/icon.jpeg"
+    },
+    "icons": {
+      "48": "images/icon.jpeg"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
